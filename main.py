@@ -1,3 +1,5 @@
+# forgot to add this but you have to be in the call on your client for it to work
+
 import httpx
 import time
 
@@ -14,6 +16,6 @@ while True:
             jizz = sex.json()
             sperm = jizz.get("retry_after")
             print(f"{reg} : {sperm}")
-            time.sleep(retry)
+            time.sleep(sperm)
         else:
             print(f"{reg} : {sex.status_code}")
